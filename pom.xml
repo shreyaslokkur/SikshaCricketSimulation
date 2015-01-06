@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>SikshaCricketSimulation</groupId>
+  <groupId>com.siksha</groupId>
   <artifactId>SikshaCricketSimulation</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -241,6 +241,39 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.1.9</version>
+            </dependency>
+
+
+
+            <dependency>
+                <groupId>com.siksha</groupId>
+                <artifactId>cricket-siksha-core</artifactId>
+                <version>1.0.SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.siksha</groupId>
+                <artifactId>cricket-siksha-test</artifactId>
+                <version>1.0.SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.siksha</groupId>
+                <artifactId>cricket-siksha-calculator</artifactId>
+                <version>1.0.SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.siksha</groupId>
+                <artifactId>cricket-siksha-rule</artifactId>
+                <version>1.0.SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.siksha</groupId>
+                <artifactId>cricket-siksha-orm</artifactId>
+                <version>1.0.SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.siksha</groupId>
+                <artifactId>cricket-siksha-client</artifactId>
+                <version>1.0.SNAPSHOT</version>
             </dependency>
 
         </dependencies>
